@@ -1,0 +1,10 @@
+api_login_check:
+  path: /api/login_check
+
+api:
+    resource:
+        path: ../src/Controller/Api
+        namespace: App\Controller\Api
+    type: attribute
+    name_prefix: api_
+    prefix: /api
